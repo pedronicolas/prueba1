@@ -1,0 +1,39 @@
+h1 {
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+#miParrafo {
+    color: green;
+    font-style: italic;
+}
+
+.miClase2 {
+    color: blue;
+
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+a {
+    color: cyan;
+}
+
+a:hover {
+    color: red;
+}
+
+:not(h1) {
+    color: green;
+}
+
+:nth-child(3) {
+    font-weight: bold;
+}
